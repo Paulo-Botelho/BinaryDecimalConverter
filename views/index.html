@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Calculator</title>
+    <link rel="stylesheet" href="/binaryCalculator/public/css/main.css">
+</head>
+<body>
+    <main class="main-index">
+        <div class="div-number">
+            <label for="dec">Decimal</label>
+            <input type="text" class="input-number" name="dec" id="dec">
+        </div>
+
+        <div class="div-transform">
+            <button onclick="binaryToDec(event)"><img src="/binaryCalculator/public/images/arrow.svg" alt="dec to binary" ></button>
+            <button onclick="decToBinary(event)"><img src="/binaryCalculator/public/images/arrow.svg" alt="binary to dec" id="right"></button>
+        </div>
+
+        <div class="div-number">
+            <label for="binary">Binary</label>
+            <input type="text"class="input-number" name="binary" id="binary">
+        </div>
+
+    </main>    
+
+    <script src="/binaryCalculator/public/script/index.js"></script>
+</body>
+</html>

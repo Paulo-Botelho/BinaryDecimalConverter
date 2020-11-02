@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size:62.5%;
+}
+body {
+
+    height: 100vh;
+    color: white;
+    background: #EBF2F5;
+    display: flex;
+}
+
+.main-index {
+
+    display:flex;
+    align-items: center;
+    margin:auto;
+    text-align: center;
+}
+.div-number {
+    display:inline-grid;
+}
+
+.main-index label {
+    font-weight: bold;
+    color: black;
+    font-size: 1.8rem;
+    margin: 0 2rem .8rem;
+}
+
+
+.input-number{
+    width: 15em;
+
+    display: inline;
+
+    line-height: 1.5;
+    border: 1px solid #9fcffd;
+}
+.div-transform {
+    margin: 0 2rem;
+
+    display: inline-grid;
+    
+}
+.div-transform button {
+    margin: 2rem 0 0;
+    padding: 1rem;
+
+    border: 1px solid #9fcffd;
+    border-radius: 3px;
+
+    background: rgb(232, 254, 255);
+    
+}
+
+.div-transform #right {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
